@@ -5,12 +5,36 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
+    <script src="src/zombieDancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
+    <script src="src/skeletonDancer.js"></script>
   </head>
   <body>
     <div class="topbar">
       <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    </div>
+      <a
+        href="#"
+        class="addDancerButton"
+        data-dancer-maker-function-name="BlinkyDancer"
+        >add a blinky dancer</a
+      >
+      <a
+        href="#"
+        class="addDancerButton"
+        data-dancer-maker-function-name="ZombieDancer"
+        >add a zombie dancer</a
+      >
+      <a
+        href="#"
+        class="addDancerButton"
+        data-dancer-maker-function-name="SkeletonDancer"
+        >add a skeleton dancer</a
+      >
+      <a href="#" class="lineUp" data-dancer-maker-function-name="">line up</a>
+      <a href="#" class="tiny" data-dancer-maker-function-name=""
+        >tiny dancers</a
+      >
+    </div>
     <script src="src/init.js"></script>
   </body>
 </html>
